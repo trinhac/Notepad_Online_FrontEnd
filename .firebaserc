@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "todolist-project-f4e21": {
+      "hosting": {
+        "Note_Frontend": [
+          "todolist-project-f4e21"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "todolist-project-f4e21"
+  }
+}

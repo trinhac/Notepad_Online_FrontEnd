@@ -1,0 +1,10 @@
+<div id = login-form>
+    <h1>Sign up</h1>
+    <form [formGroup]="loginForm" (ngSubmit)="submit()">
+        <input type="email" formControlName="email" placeholder="Enter your email"><br/>
+        <input type="password" formControlName="password"  placeholder="Enter your password"><br/>
+        <button type="submit()" nbButton hero size="small" status="primary">Login</button>
+        <button nbButton hero size="small" status="primary">Login with Google!</button>
+        <button nbButton hero size="small" status="primary">Logout</button>
+    </form>
+</div>
